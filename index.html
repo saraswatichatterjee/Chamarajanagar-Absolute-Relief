@@ -189,7 +189,7 @@ html, body, #map {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Red/orange areas show higher elevation along the west/north edges while blue areas show lower elevation in the center/southeast, indicating terrain slopes down toward the central-eastern part of the region near Mysuru.';
+                this._div.innerHTML = 'Blue areas have high Absolute Relief meaning high elevation above sea level with mountainous/hilly terrain, while red areas have low Absolute Relief meaning low elevation above sea level with plains/lowland terrain.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
